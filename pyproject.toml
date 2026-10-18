@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xlsx-diff"
+version = "1.0.0"
+description = "Compare Excel workbooks by cell address and generate HTML and CSV reports"
+requires-python = ">=3.9"
+dependencies = ["openpyxl>=3.1,<4"]
+
+[project.scripts]
+xlsx-diff = "xlsx_diff.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["xlsx_diff*"]
