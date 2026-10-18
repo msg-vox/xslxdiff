@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+tests/test_diff.py
+xlsx_diff/__init__.py
+xlsx_diff/__main__.py
+xlsx_diff/cli.py
+xlsx_diff/compare.py
+xlsx_diff/report.py
+xlsx_diff.egg-info/PKG-INFO
+xlsx_diff.egg-info/SOURCES.txt
+xlsx_diff.egg-info/dependency_links.txt
+xlsx_diff.egg-info/entry_points.txt
+xlsx_diff.egg-info/requires.txt
+xlsx_diff.egg-info/top_level.txt

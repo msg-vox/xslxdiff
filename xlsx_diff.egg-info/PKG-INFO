@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: xlsx-diff
+Version: 1.0.0
+Summary: Compare Excel workbooks by cell address and generate HTML and CSV reports
+Requires-Python: >=3.9
+Requires-Dist: openpyxl<4,>=3.1
